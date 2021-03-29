@@ -20,7 +20,7 @@ const AdditionalFeatures = (props) => {
 };
 
 const mapStateToProps = (state) => {
-  return (additionalFeatures: state.additionalFeatures);
+  return { additionalFeatures: state.additionalFeatures };
 };
 
 export default connect(mapStateToProps)(AdditionalFeatures);
